@@ -29,20 +29,16 @@ import (
 func main() {
     t := time.Now()
 
-    time.Sleep(5)
-
+    time.Sleep(5 * time.Second)
     fmt.Println(humantime.Since(t)) // just now
 
-    time.Sleep(30)
-
+    time.Sleep(30 * time.Second)
     fmt.Println(humantime.Since(t)) // seconds ago
 
-    time.Sleep(25)
-
+    time.Sleep(25 * time.Second)
     fmt.Println(humantime.Since(t)) // a minute ago
 
-    time.sleep(240)
-
+    time.Sleep(240 * time.Second)
     fmt.Println(humantime.Since(t)) // 5 minutes ago
 }
 ```
