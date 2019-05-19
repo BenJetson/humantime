@@ -8,10 +8,19 @@ instances.
 go get github.com/BenJetson/humantime
 ```
 
-## Example using `func humantime.Since(t time.Time) string`
+## Import
+
+```golang
+import "github.com/BenJetson/humantime"
+```
+
+## Examples
+
+### Example using `func humantime.Since(t time.Time) string`
 
 ```golang
 import (
+    "fmt"
     "time"
     
     "github.com/BenJetson/humantime"
@@ -38,10 +47,11 @@ func main() {
 }
 ```
 
-## Example using `func humantime.Duration(d time.Duration) string`
+### Example using `func humantime.Duration(d time.Duration) string`
 
 ```golang
 import (
+    "fmt"
     "time"
     
     "github.com/BenJetson/humantime"
