@@ -5,13 +5,13 @@ import (
 	"time"
 )
 
-// CONSTANTS
-
-// Note that hours per month is approximate due to fluctuations in month length.
-const HOURS_IN_MONTH = 730
-const HOURS_IN_DAY = 24
-const HOURS_IN_WEEK = HOURS_IN_DAY * 7
-const HOURS_IN_YEAR = HOURS_IN_DAY * 365
+const (
+	// Note that hours per month is approximate due to fluctuations in month length.
+	HOURS_IN_MONTH = 730
+	HOURS_IN_DAY = 24
+	HOURS_IN_WEEK = HOURS_IN_DAY * 7
+	HOURS_IN_YEAR = HOURS_IN_DAY * 365
+)
 
 // Duration returns a string with a plain English descrption of the length of
 // time that the time.Duration t contains.
