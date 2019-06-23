@@ -6,10 +6,14 @@ import (
 )
 
 const (
+	// HOURS_IN_MONTH represents the approximate number of hours in a month.
 	// Note that hours per month is approximate due to fluctuations in month length.
 	HOURS_IN_MONTH = 730
+	// HOURS_IN_DAY represents the number of hours in a day.
 	HOURS_IN_DAY = 24
+	// HOURS_IN_WEEK represents the number of hours in a week.
 	HOURS_IN_WEEK = HOURS_IN_DAY * 7
+	// HOURS_IN_YEAR represents the number of hours in a year.
 	HOURS_IN_YEAR = HOURS_IN_DAY * 365
 )
 
